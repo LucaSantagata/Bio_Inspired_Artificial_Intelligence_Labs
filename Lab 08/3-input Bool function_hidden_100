@@ -1,0 +1,13 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	A [fillcolor=lightgray shape=box style=filled]
+	B [fillcolor=lightgray shape=box style=filled]
+	C [fillcolor=lightgray shape=box style=filled]
+	"f(A,B,C)" [fillcolor=lightblue style=filled]
+	101 [fillcolor=white style=filled]
+	A -> 101 [color=green penwidth=0.3101771149269885 style=solid]
+	B -> 101 [color=green penwidth=0.8400230922071669 style=solid]
+	C -> 101 [color=green penwidth=0.7556737639958523 style=solid]
+	101 -> "f(A,B,C)" [color=red penwidth=0.6852706548319217 style=solid]
+	B -> "f(A,B,C)" [color=green penwidth=0.2404632275774455 style=solid]
+}
